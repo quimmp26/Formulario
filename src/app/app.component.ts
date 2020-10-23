@@ -7,4 +7,31 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Formulario';
+
+  mostrarInfo: string = "";
+  mostrarInfo2: string = "";
+  erDNI = '^[0-9]{8}[A-Za-z]{1}$';
+
+
+  async enviarDatos(nombre, dni, mensaje){
+    if(nombre.value == ""){
+      alert("El nombre esta vacio");
+    }
+
+    if(dni.match(this.erDNI)){
+      this.mostrarInfo = "DNI correcto";
+    }else{
+      this.mostrarInfo = "DNI incorrecto";
+    }
+
+    if(mensaje.length < 2){
+      this.mostrarInfo2 = "El texto introducido es demasiado corto.";
+    }
+
+
+  }
+
+
+
 }
+
