@@ -1,343 +1,234 @@
-<!-- PRACTICA 6 - NELSON  -->
-
-
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <button type="button" class="btn btn-light btn-block mr-1">Default</button>
-      <button type="button" class="btn btn-primary mr-1">Primary</button>
-      <button type="button" class="btn btn-success mr-1">Success</button>
-      <button type="button" class="btn btn-info mr-1">Info</button>
-      <button type="button" class="btn btn-warning mr-1">Warning</button>
-      <button type="button" class="btn btn-danger mr-1">Danger</button>
-      <button type="button" class="btn btn-link mr-1">Link</button>
-    </div>
-    <div class="col">
-      <button type="button" class="btn btn-light mr-1">Default</button>
-      <button type="button" class="btn btn-primary mr-1">Primary</button>
-      <button type="button" class="btn btn-success mr-1">Success</button>
-      <button type="button" class="btn btn-info mr-1">Info</button>
-      <button type="button" class="btn btn-warning mr-1">Warning</button>
-      <button type="button" class="btn btn-danger mr-1">Danger</button>
-      <button type="button" class="btn btn-link mr-1">Link</button>
-    </div>
-  </div>
-
-</div>
-<div class="container pt-5">
-  <div class="row">
-    <div class="col">
-      <img src="assets/player.png" class="rounded" alt="Cinque Terre" width="100%">
-    </div>
-    <div class="col">
-      <img src="assets/player.png" class="rounded-circle" alt="Cinque Terre" width="100%">
-    </div>
-    <div class="col">
-      <img src="assets/player.png" class="rounded" alt="Cinque Terre" width="100%">
-    </div>
-  </div>
-</div>
-
-<div class="container pt-5">
-    <div class="btn-group row">
-      <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Listado
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#" data-abc="true">Ilerna</a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarColor02"
+    aria-controls="navbarColor02"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" data-abc="true"
+          >Inicio <span class="sr-only">(current)</span></a
+        >
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Categorias
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Diseño Web</a>
+          <a class="dropdown-item" href="#">CSS</a>
+          <a class="dropdown-item" href="#">Cursos</a>
+          <a class="dropdown-item" href="#">Desarrollo Web</a>
+          <a class="dropdown-item" href="#">JQuery</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-abc="true">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-abc="true">Contacto</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Buscar" />
+      <button class="btn btn-primary my-2 my-sm-0" type="submit">
+        <i class="fas fa-search" aria-hidden="true"></i>
       </button>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Item #1</a>
-        <a class="dropdown-item" href="#">Item #2</a>
-        <a class="dropdown-item" href="#">Item #3</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Item #4</a>
-      </div>
+    </form>
+  </div>
+</nav>
+<div class="container-fluid bg-primary text-white p-4">
+  <div class="ml-5">
+    <h1>Clase de DAW2</h1>
+    <p>Alumnos y profesores todos contentos</p>
   </div>
 </div>
-
-
-
-
-<!-- <nav class="navbar bg-info"><h4>header</h4></nav>
-<div class="container">
-  <div class="row">
-    <div class="col-lg-9 bg-light" >
-      <h5 class="mt-3">Articulo</h5>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus natus sit saepe blanditiis maiores ullam deserunt deleniti quae asperiores, fugit dolor illum, eveniet harum aliquam iusto magni similique mollitia illo.</p>
-    </div>
-    <div class="col-lg-3 d-none d-lg-block bg-danger text-white">
-      <h5 class="mt-3">Aside</h5>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium repellat quam fugit, doloribus neque exercitationem est mollitia sunt ullam laborum.</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-3 col-md-6 col-sm-12 bg-info text-white">
-      <h5 class="mt-3">Columna1</h5>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ratione nesciunt quam repellendus maxime odio.</p>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12">
-      <h5 class="mt-3">Columna2</h5>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio inventore sapiente autem perspiciatis aliquid laboriosam.</p>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12 bg-info text-white">
-      <h5 class="mt-3">Columna3</h5>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus, incidunt aperiam ipsa facilis provident.</p>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12">
-      <h5 class="mt-3">Columna4</h5>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi quas a quidem minus tempora provident!</p>
-    </div>
-  </div>
-
-</div> -->
-
-<!--practica 4-->
-
-<!-- <div class="container-fluid">
-
 <div class="row">
-  <div class="col-md-4">
-    <section>
-      <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta maxime consectetur, suscipit nemo pariatur vitae maiores temporibus ut explicabo minus.</p>
-    </section>
-    <section >
-      <p><mark>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi excepturi omnis iusto deleniti rem, consequatur nostrum libero odit qui dolor.</mark></p>
-    </section>
-    <section>
-      <p><del>ipsum dolor sit amet, consectetur adipisicing elit. Sequi molestiae veniam quibusdam, nobis deleniti dolorum nisi provident?</del> </p>
-    </section>
-    <section>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos laborum illo animi aperiam impedit id molestias delectus iste.!</p>
-    </section>
-    <section>
-      <p class="text-uppercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat alias pariatur laboriosam recusandae at ratione.</p>
-    </section>
-    <section>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium officiis numquam qui expedita perferendis quaerat obcaecati laboriosam!</p>
-    </section>
-  </div>
-  <div class="col-md-4">
-    <section>
-      <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aut numquam excepturi vero ipsum ratione odio quam, unde neque repellendus.</p>
-    </section>
-    <section>
-      <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius molestiae sequi voluptates, facilis aperiam sunt quis distinctio.</p>
-    </section>
-    <section>
-      <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, ea odit praesentium accusamus consequatur quisquam beatae incidunt recusandae modi.</p>
-    </section>
-    <section>
-      <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aperiam, eos deleniti quaerat laudantium ipsum.</p>
-    </section>
-    <section>
-      <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sequi iste omnis doloremque aspernatur, error harum id quam.</p>
-    </section>
-    <section>
-      <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia modi, sint tempore doloribus ad eaque deleniti. Sed rerum eos facere.</p>
-    </section>
-    <section>
-      <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint deleniti possimus perspiciatis rerum ab itaque consequatur.</p>
-    </section>
-  </div>
-  <div class="col-md-4">
-    <section>
-      <p class="text-left ml-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid deserunt provident similique qui possimus corporis alias eaque, nesciunt perspiciatis facilis!</p>
-    </section>
-    <section>
-      <p class="text-danger ml-3">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-    </section>
-    <section class="ml-3">
-      <pre>
-        <p class="text-left">                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dignissimos maiores nemo numquam eos id veniam sint ad officia assumenda Lorem ipsum dolor sit amet consectetur.</p>
-      </pre>
-
-
-    </section>
-    <section>
-      <p class="text-left ml-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nostrum soluta in perspiciatis! Ducimus ipsum cupiditate velit, quae veniam odit.</p>
-    </section>
-    <section>
-      <p class="text-left ml-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure laborum incidunt id ut unde, eos deserunt sunt? Natus?.</p>
-    </section>
-    <section>
-      <p class="text-left ml-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. In reprehenderit quos necessitatibus eius quidem fuga adipisci officia sint.</p>
-    </section>
-    <section>
-      <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati neque tempore corporis ad inventore quasi quas sequi quisquam vitae nihil veniam dolor, nemo magnam, perspiciatis error expedita! Velit, ea nostrum.</p>
-    </section>
-  </div>
-</div>
-
-
-</div> -->
-
-
-<!--practica 5
-
-<div class="container-fluid">
-  <table class="table table-striped table-bordered">
-    <thead>
-      <tr>
-        <th scope="col"># ID</th>
-        <th scope="col">Nombre</th>
-        <th scope="col">Usuario</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <th>Nombre 1</th>
-        <th>Usuario 1</th>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <th>Nombre 2</th>
-        <th>Usuario 2</th>
-      </tr>
-      <tr class="table-success">
-        <th scope="row">3</th>
-        <th>Nombre 3</th>
-        <th>Usuario 3</th>
-      </tr>
-    </tbody>
-  </table>
-
-</div>
-
-<div class="container-fluid pt-5">
-  <form>
-
-      <div class="form-group">
-        <label for="exampleFormControlInput1"><strong>Label basica</strong> </label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="input basico">
-      </div>
-      <div class="form-group">
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="textarea"></textarea>
-      </div>
-
-      <div class="form-group">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-          <label class="form-check-label" for="defaultCheck1">
-            Checkbox #1
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-          <label class="form-check-label" for="defaultCheck2">
-            Checkbox #2
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-          <label class="form-check-label" for="defaultCheck2">
-            Checkbox #3
-          </label>
-        </div>
-      </div>
-
-    <fieldset class="form-group">
+  <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 ">
+    <div class="container py-3">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+          <li class="breadcrumb-item"><a href="#">Categorias</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Diseño Web</li>
+        </ol>
+      </nav>
       <div class="row">
-        <div class="col-sm-10">
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
-            <label class="form-check-label" for="gridRadios1">
-              Radio #1
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-            <label class="form-check-label" for="gridRadios2">
-              Radio #2
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-            <label class="form-check-label" for="gridRadios3">
-              Radio #3
-            </label>
+        <div class="col-md-4">
+          <img src="assets/siguenos.png" class="w-100" />
+        </div>
+        <div class="col-md-8 px-3">
+          <div class="card-block px-3 pt-3">
+            <h4 class="card-title">Vente a estudiar programación web</h4>
+            <small>1 de Enero de 2020 por <a href="#">Nelson Pérez</a></small>
+            <p class="card-text text-justify">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Similique qui praesentium saepe ut illum amet molestias fugit
+              inventore eaque corporis nemo sapiente, quasi cum ab, dolore ipsum
+              alias repudiandae porro.
+            </p>
+            <a href="#" class="btn btn-primary mr-1">Leer Más</a>
+            <button type="button" class="btn btn-success">
+              Comentarios <span class="badge badge-light text-success">20</span>
+            </button>
           </div>
         </div>
       </div>
-    </fieldset>
 
-    <div class="form-group row">
-      <div class="col-sm-10">
-        <button type="submit" >Enviar</button>
+      <hr class="my-4 border" />
+      <div class="row">
+        <div class="col-md-4">
+          <img src="assets/alumnos.jpg" class="w-100" />
+        </div>
+        <div class="col-md-8 px-3">
+          <div class="card-block px-3 pt-3">
+            <h4 class="card-title">Vente a estudiar en Java</h4>
+            <small>1 de Enero de 2020 por <a href="#">Nelson Pérez</a></small>
+            <p class="card-text text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem dolore delectus eius odit blanditiis voluptatibus
+              quidem officiis magni in temporibus minima ipsam suscipit dolores
+              doloremque a at amet quaerat, neque adipisci eveniet. Cumque
+              recusandae autem laudantium perspiciatis maiores magnam nostrum
+              sed ipsa?
+            </p>
+            <a href="#" class="btn btn-primary mr-1">Leer Más</a>
+            <button type="button" class="btn btn-success">
+              Comentarios <span class="badge badge-light text-success">13</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-4 border" />
+      <div class="row">
+        <div class="col-md-4">
+          <img src="assets/ilerna.png" class="w-100" />
+        </div>
+        <div class="col-md-8 px-3">
+          <div class="card-block px-3 pt-3">
+            <h4 class="card-title">Vente a estudiar redes</h4>
+            <small>1 de Enero de 2020 por <a href="#">Nelson Pérez</a></small>
+            <p class="card-text text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+              facilis! Odio impedit architecto tenetur error nobis ullam numquam
+              obcaecati, laudantium molestiae quas. Fugit repellendus quam
+              excepturi ut libero sunt aperiam ea minima, ullam iusto. Delectus
+              voluptas, error atque expedita id tenetur suscipit aliquam sequi
+              magnam, quas commodi odio quaerat quae?
+            </p>
+            <a href="#" class="btn btn-primary mr-1">Leer Más</a>
+            <button type="button" class="btn btn-success">
+              Comentarios <span class="badge badge-light text-success">0</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-5 border" />
+      <footer>
+        <div class="row">
+          <div class="col-10">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <p>Nelson Pérez Varona - Clase DAW2</p>
+          </div>
+          <div class="col-2">
+            <ul class="list-group list-group-horizontal-md">
+              <a href="#" class="mr-3">Inicio</a>
+              <a href="#" class="mr-3">Cursos</a>
+              <a href="#" class="mr-3">Contactos</a>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <div class="col-lg-3 d-none d-xl-block ">
+    <div class="container py-4">
+      <h5 class="w-700 mb-3">Categorias</h5>
+      <div class="list-group mr-5">
+        <a
+          href="#"
+          class="list-group-item list-group-item-action active"
+          aria-current="true"
+        >
+          Diseño Web
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">CSS</a>
+        <a href="#" class="list-group-item list-group-item-action">Cursos</a>
+        <a href="#" class="list-group-item list-group-item-action"
+          >Desarrollo Web</a
+        >
+        <a href="#" class="list-group-item list-group-item-action">JQuery</a>
       </div>
     </div>
-  </form>
+    <div class="container py-4">
+      <h5 class="w-700 mb-3">Articulos Recientes</h5>
+      <div class="list-group mr-5">
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Primer articulo</h5>
+          </div>
+          <p class="mb-1">
+            Donec id elit non mi porta gravida at eget metus. Maecenas sed diam
+            eget risus varius blandit.
+          </p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Segundo articulo</h5>
+          </div>
+          <p class="mb-1">
+            Donec id elit non mi porta gravida at eget metus. Maecenas sed diam
+            eget risus varius blandit.
+          </p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Tercer articulo</h5>
+          </div>
+          <p class="mb-1">
+            Donec id elit non mi porta gravida at eget metus. Maecenas sed diam
+            eget risus varius blandit.
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
-
-<div class="container-fluid pt-5">
-
-  <form>
-    <div class="form-group">
-      <label for="exampleFormControlInput1"><strong>Nombre</strong></label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre:">
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlSelect1"><strong>Elige una opcion</strong></label>
-      <select class="form-control" id="exampleFormControlSelect1">
-        <option>Opción #1</option>
-        <option>Opción #2</option>
-        <option>Opción #3</option>
-        <option>Opción #4</option>
-        <option>Opción #5</option>
-      </select>
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlTextarea1"><strong>Mensaje</strong></label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje:"></textarea>
-    </div>
-
-    <div class="form-group">
-      <label for="exampleFormControlFile1"><strong>Archivo:</strong></label>
-      <input type="file" class="form-control-file" id="exampleFormControlFile1">
-      <label for="">Maximo 20MB</label>
-    </div>
-
-    <div class="form-group row">
-      <div class="col-sm-10">
-        <button type="button" class="btn btn-warning text-white">Enviar</button>
-      </div>
-    </div>
-
-
-  </form>
-
-</div>
-
-<div class="container-fluid pt-5">
-
-  <form>
-    <div class="form-row align-items-center">
-      <label for="inlineFormInputName"><strong>Nombre:</strong></label>
-      <div class="col-sm-3 my-1">
-        <input type="text" class="form-control" id="inlineFormInputName" placeholder="Nombre:">
-      </div>
-      <div class="col-sm-3 my-1">
-        <label class="sr-only" for="inlineFormInputGroupUsername">Correo:</label>
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <div class="input-group-text">@</div>
-          </div>
-          <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Correo">
-        </div>
-      </div>
-      <div class="col-auto my-1">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
-          <label class="form-check-label" for="autoSizingCheck2">
-            Recuerdame
-          </label>
-        </div>
-      </div>
-      <div class="col-auto my-1">
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </div>
-    </div>
-  </form>
-
-</div>-->
-
-
-
